@@ -1,4 +1,4 @@
-# SpontaneousMedia
+# Trusted Media
 Spontaneous Media aims to enlighten reliable media contents  
 
 ## Introduction
