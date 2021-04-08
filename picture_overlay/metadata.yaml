@@ -1,0 +1,39 @@
+# This file stores key information about a specific picture.
+data:
+  author:
+    first_name: Hadrien
+    last_name: Marcellin
+    date_of_birth: 01.30.1996
+  location:
+    GPS:
+      latitude:
+      longitude:
+      altitude: 603m
+    hemisphere: NORTH
+    country: Suisse
+    post_code: 1005
+    city: Lausanne
+    street: Avenue Charles Secretan
+    number: 1
+  time:
+    local_time: Wed Mar 13 17:17:11 2021
+  device:
+    brand: APPLE
+    model: Iphone 11 Pro
+    operating_system: OS 11
+  image:
+    height: 1024
+    width: 720
+    encoding: utf-8
+    color_palette: None
+    format: None
+    size: None
+    key_words: None
+unique_key:
+
+
+
+
+
+
+

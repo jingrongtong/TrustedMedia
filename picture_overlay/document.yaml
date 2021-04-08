@@ -1,0 +1,40 @@
+!!python/object:Metadata.Metadata
+author: !!python/object:Metadata.Author
+  first_name: Hadrien
+  last_name: Marcellin
+device: !!python/object:Metadata.Device
+  brand: APPLE
+  model: Iphone 11 pro
+  operating_system: OS 11
+image: !!python/object:Metadata.Image
+  color_palette: null
+  encoding: utf-8
+  format: null
+  height: 1024
+  key_words: null
+  size: null
+  width: 720
+location: !!python/object:Metadata.Location
+  city: Lausanne
+  gps: !!python/object:Metadata.GPS
+    altitude: 600
+    latitude: 5
+    longitude: 92
+  hemisphere: NORTH
+  number: 1
+  post_code: 1005
+  street: "Avenue Charles Secr\xE9tan"
+time: !!python/object:Metadata.Time
+  time: !!python/object/apply:time.struct_time
+  - !!python/tuple
+    - 2021
+    - 4
+    - 8
+    - 19
+    - 35
+    - 13
+    - 3
+    - 98
+    - 1
+  - tm_gmtoff: 7200
+    tm_zone: CEST
