@@ -2,14 +2,15 @@ from PIL import Image, ImageDraw
 import matplotlib.pyplot as plt
 import piexif
 import numpy as np
+import os
 
 
 class ImageGenerator:
     
-    root = "/home/hadrien/AnacondaProjects/TrustedMedia/data/"
+    ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
     
     def __init__(self, filename):
-        self.filename = self.root + filename
+        self.filename =  os.path.join(self.ROOT_DIR, filename)
         self.image = None
         self.exif_dict = None
        
@@ -42,7 +43,7 @@ class ImageGenerator:
             del self.exif_dict["1st"]
           
         exif_bytes = piexif.dump(self.exif_dict)
-        self.image.save(self.root + filename, "jpeg", exif=exif_bytes)
+        self.image.save( os.path.join(self.ROOT_DIR, filename), "jpeg", exif=exif_bytes)
         
         
     def display(self):
