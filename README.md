@@ -12,6 +12,7 @@ We aim to develop a protocol with which one can quote a media contents making su
   - Bots, Humans, Microtargeting, Trolls, how does fake news spread ?  https://www.cits.ucsb.edu/fake-news/spread
   - Russian social disinformation for 2016's US presidential election : https://www.fpri.org/article/2017/10/extremist-content-russian-disinformation-online-working-tech-find-solutions/
   - Simple fake news technics (images and videos) : https://gijn.org/six-fake-news-techniques-and-simple-tools-to-vet-them/
+  - The astonishing improvement of deepfakes and increasing complexity to detect it : https://www.theguardian.com/technology/2018/nov/12/deep-fakes-fake-news-truth
 
 ### Exiff
   - Rather good introduction to EXIFF : https://www.photograpix.fr/blog/trucs-et-astuces/donnees-exif-photo/
