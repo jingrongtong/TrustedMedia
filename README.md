@@ -13,19 +13,18 @@ We aim to develop a protocol with which one can quote a media contents making su
   - Russian social disinformation for 2016's US presidential election : https://www.fpri.org/article/2017/10/extremist-content-russian-disinformation-online-working-tech-find-solutions/
   - Simple fake news technics (images and videos) : https://gijn.org/six-fake-news-techniques-and-simple-tools-to-vet-them/
 
-### Exiff Description
+### Exiff
   - Rather good introduction to EXIFF : https://www.photograpix.fr/blog/trucs-et-astuces/donnees-exif-photo/
   - Empirical description of EXIFF : https://www.media.mit.edu/pia/Research/deepview/exif.html
   - EXIFF reader : https://www.exifdata.com/
   - Wiki page : https://fr.wikipedia.org/wiki/Exchangeable_image_file_format
 
-
-### Python
+#### Python
   - Simple tutorial to understand EXIFF with python : https://developer.here.com/blog/getting-started-with-geocoding-exif-image-metadata-in-python3
   - PiExif documentation : https://piexif.readthedocs.io/en/latest/index.html
   - PiExif source code :  https://github.com/hMatoba/Piexif
 
-### Java
+#### Java
   - Android developper Interface to Handle EXIFF : https://developer.android.com/reference/android/media/ExifInterface
 
 ### Others
