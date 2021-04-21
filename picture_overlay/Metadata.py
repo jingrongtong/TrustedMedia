@@ -37,7 +37,7 @@ class Device:
 
 
 class Image:
-    def __init__(self):
+    def __init__(self, picture_hash):
         self.height = 1024
         self.width = 720
         self.encoding = "utf-8"
@@ -45,13 +45,15 @@ class Image:
         self.format = None
         self.size = None
         self.key_words = None
+        self.picture_hash = picture_hash
 
 
 class Metadata:
-    def __init__(self):
+    def __init__(self, picture_hash):
         self.author = Author()
         self.location = Location()
         self.device = Device()
-        self.image = Image()
+        self.image = Image(picture_hash=picture_hash)
         self.time = Time()
+        self.meta_hash = self.__hash__()
 

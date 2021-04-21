@@ -1,7 +1,7 @@
 # This is a sample Python script.
 import config
-import CameraStub
-import sys
+from CameraStub import CameraStub
+from datetime import datetime
 from yaml import load, dump
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -13,13 +13,20 @@ def print_path(name, path):
     print(f'{name} : {path}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
+def get_timestamp():
+    date_time = datetime.now()
+    return date_time.strftime("%d_%m_%y_%H_%M_%S")
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_path("Raw pictures directory", config.RAW_PICTURES_DIR)
 
+    print_path("Raw pictures directory", config.RAW_PICTURES_DIR)
+    filename = config.RAW_PICTURES_DIR + "/" + "picture_" + get_timestamp() + ".jpg"
     stream = open('document.yaml', 'w')
-    Camera = CameraStub.CameraStub()
-    PictureMetadata = Camera.take_picture()
-    dump(PictureMetadata, stream)
+    Camera = CameraStub()
+    picture_metadata, picture = Camera.take_picture()
+    picture.save(filename)
+    dump(picture_metadata, stream)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
